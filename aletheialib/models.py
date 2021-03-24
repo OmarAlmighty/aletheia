@@ -17,7 +17,7 @@ from sklearn.feature_selection import f_classif, SelectKBest
 from sklearn.model_selection import RandomizedSearchCV
 from sklearn import svm
 
-#import hdf5storage
+import hdf5storage
 from scipy.io import savemat, loadmat
 from scipy import signal # ndimage
 from imageio import imread
